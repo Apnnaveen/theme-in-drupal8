@@ -1,0 +1,19 @@
+uuid: e1d52f49-a3a5-43e9-a92a-8448c8803813
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form
+    - field.storage.block_content.field_heading
+id: block_content.quote_form.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: quote_form
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

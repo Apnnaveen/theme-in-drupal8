@@ -1,0 +1,25 @@
+uuid: 81a0f292-adb8-4497-b548-3630a36b8c35
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:quote_form:6a4e3cc4-222e-457d-8790-783e3e4a4f89'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: quoteform
+theme: custom_theme
+region: navigation
+weight: -7
+provider: null
+plugin: 'block_content:6a4e3cc4-222e-457d-8790-783e3e4a4f89'
+settings:
+  id: 'block_content:6a4e3cc4-222e-457d-8790-783e3e4a4f89'
+  label: 'Quote Form'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 0ffc00b7-d4be-4dd0-a268-d9fe53eb6499
+langcode: en
+status: true
+dependencies: {  }
+id: quote_form
+label: 'Quote Form'
+revision: 0
+description: ''

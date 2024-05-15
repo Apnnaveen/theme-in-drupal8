@@ -1,0 +1,42 @@
+uuid: a72f24d0-4ffc-4aac-86ca-cc0485c5022b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form
+    - field.field.block_content.quote_form.body
+    - field.field.block_content.quote_form.field_heading
+  module:
+    - text
+id: block_content.quote_form.default
+targetEntityType: block_content
+bundle: quote_form
+mode: default
+content:
+  body:
+    weight: 29
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_heading:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

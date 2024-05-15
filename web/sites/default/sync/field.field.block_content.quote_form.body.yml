@@ -1,0 +1,23 @@
+uuid: a2d55d1e-7ef0-4b80-ba95-041620d3f9cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.quote_form.body
+field_name: body
+entity_type: block_content
+bundle: quote_form
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

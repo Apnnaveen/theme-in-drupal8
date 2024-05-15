@@ -13,6 +13,7 @@ framework:
   css:
     theme:
       assets/css/main.css: {}
+      assets/css/style.css: {}
       assets/vendor/bootstrap/css/bootstrap.min.css: {}
       assets/vendor/bootstrap-icons/bootstrap-icons.css: {}
       assets/vendor/fontawesome-free/css/all.min.css: {}

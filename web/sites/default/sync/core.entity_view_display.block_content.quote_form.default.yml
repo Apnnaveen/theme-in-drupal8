@@ -1,0 +1,31 @@
+uuid: 6a3e2925-4bee-4353-b41b-53520c2ab318
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.quote_form
+    - field.field.block_content.quote_form.body
+    - field.field.block_content.quote_form.field_heading
+  module:
+    - text
+id: block_content.quote_form.default
+targetEntityType: block_content
+bundle: quote_form
+mode: default
+content:
+  body:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_heading:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

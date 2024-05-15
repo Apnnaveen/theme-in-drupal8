@@ -1,0 +1,30 @@
+<!-- ======= Get Started Section ======= -->
+<section id="get-started" class="get-started section-bg">
+  <div class="container">
+
+    <div class="row justify-content-between gy-4">
+
+      <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+        <div class="content">
+          <h3>{{content.field_heading[0]["#context"].value}}</h3>
+          <p>{{(content.body[0]["#text"]|raw)}}</p>
+        </div>
+      </div>
+      <div class="col-lg-5" data-aos="fade">
+        <form class="php-email-form">
+          <div class="row gy-3">
+            <div class="col-md-12 webform">
+              {{ drupal_entity('webform', 'contact_form') }}
+            </div>
+            <div class="col-md-12 text-center">
+            <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+                </div>
+        </form>
+      </div><!-- End Quote Form -->
+
+    </div>
+
+  </div>
+</section><!-- End Get Started Section -->

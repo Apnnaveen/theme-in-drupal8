@@ -1,0 +1,10 @@
+.webform input[type="text"],
+.webform input[type="email"],
+.webform textarea {
+  border: 1px solid #ccc;
+  padding: 22px 15px;
+  width: 100%;
+}
+.webform .form-actions {
+  text-align: center;
+}
