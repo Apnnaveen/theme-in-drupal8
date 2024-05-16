@@ -1,0 +1,15 @@
+uuid: 4bc66a34-b927-4e0a-8982-9c48610570ba
+langcode: en
+status: true
+dependencies: {  }
+name: construction_block_img
+label: construction_block_img
+effects:
+  fe6f5a02-fa1a-479a-977d-39b327878e3b:
+    uuid: fe6f5a02-fa1a-479a-977d-39b327878e3b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 310
+      anchor: center-center

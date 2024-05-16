@@ -1,0 +1,26 @@
+uuid: db2650cb-b955-4c6f-853b-8a875d1c76d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.constructions_blocks.field_body_blocks
+    - field.field.node.constructions_blocks.field_header_blocks
+    - field.field.node.constructions_blocks.field_image_blocks
+    - node.type.constructions_blocks
+  module:
+    - user
+id: node.constructions_blocks.teaser
+targetEntityType: node
+bundle: constructions_blocks
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_body_blocks: true
+  field_header_blocks: true
+  field_image_blocks: true

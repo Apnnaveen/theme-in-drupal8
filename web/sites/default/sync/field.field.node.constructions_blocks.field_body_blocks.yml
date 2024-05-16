@@ -1,0 +1,19 @@
+uuid: cb816997-94d7-40ac-ba00-5a70f71cd2e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_blocks
+    - node.type.constructions_blocks
+id: node.constructions_blocks.field_body_blocks
+field_name: field_body_blocks
+entity_type: node
+bundle: constructions_blocks
+label: body_blocks
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

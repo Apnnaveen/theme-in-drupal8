@@ -1,4 +1,4 @@
-uuid: 72b38814-5e14-4fad-8281-07910964fb78
+uuid: b6f2fafb-a5b7-4044-b17e-4739d2fb24c6
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: custom_theme_local_actions
 theme: custom_theme
 region: content
-weight: -4
+weight: -20
 provider: null
 plugin: local_actions_block
 settings:

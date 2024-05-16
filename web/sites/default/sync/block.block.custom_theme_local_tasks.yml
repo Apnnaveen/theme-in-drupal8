@@ -1,4 +1,4 @@
-uuid: 6d7ab15f-6dc1-4d66-8ba1-b66c95b6731e
+uuid: 94c6943c-d49a-4872-be07-7665672c446f
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: custom_theme_local_tasks
 theme: custom_theme
 region: content
-weight: -6
+weight: -40
 provider: null
 plugin: local_tasks_block
 settings:
