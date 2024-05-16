@@ -1,4 +1,4 @@
-uuid: abb11295-4c50-4275-8ee8-608911f8bf92
+uuid: 089b9762-1d77-4f18-95b3-1520f2519abc
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,10 @@ dependencies:
   theme:
     - custom_theme
 _core:
-  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
+  default_config_hash: 4VDn3bLy009pYlPUWQBHaaGVJu8FPnxNfr2DYrAnNHI
 id: custom_theme_footer
 theme: custom_theme
-region: navigation
+region: footer
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

@@ -8,3 +8,7 @@
 .webform .form-actions {
   text-align: center;
 }
+.hero .info {
+  inset: initial;
+  margin: 24vh;
+}

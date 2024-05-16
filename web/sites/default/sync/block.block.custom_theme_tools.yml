@@ -1,4 +1,4 @@
-uuid: 47371c86-5a56-48db-b87a-c410d20f433e
+uuid: 869fc669-bd2b-41f8-84e5-3fff266144f0
 langcode: en
 status: true
 dependencies:
@@ -9,10 +9,10 @@ dependencies:
   theme:
     - custom_theme
 _core:
-  default_config_hash: rH6PpAn7-RScha1rGkohGAYSSh_1OVeZzioJPzPw6O4
+  default_config_hash: SrPItPkAevw9hGX_v5AfsVyw6vkoog7ZVLSJYqwsBHc
 id: custom_theme_tools
 theme: custom_theme
-region: sidebar_first
+region: sidebar_second
 weight: 0
 provider: null
 plugin: 'system_menu_block:tools'
