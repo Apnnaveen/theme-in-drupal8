@@ -1,0 +1,10 @@
+uuid: 0019feef-7be4-4088-94f4-d2565849a3a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.slider_view
+label: slider_view
+targetEntityType: block_content
+cache: true

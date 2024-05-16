@@ -1,0 +1,23 @@
+uuid: 2088db2a-e90b-4679-88a8-f766267348b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.front
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.front.body
+field_name: body
+entity_type: block_content
+bundle: front
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

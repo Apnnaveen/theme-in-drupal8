@@ -1,0 +1,23 @@
+uuid: f5499964-20c3-4b75-b9fc-906d423ba75d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.front
+    - field.storage.block_content.field_third
+  module:
+    - link
+id: block_content.front.field_third
+field_name: field_third
+entity_type: block_content
+bundle: front
+label: third
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

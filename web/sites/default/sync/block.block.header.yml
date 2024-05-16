@@ -1,0 +1,25 @@
+uuid: 116ce56b-461d-446e-9370-f3211f1b85cf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:front:076ea0e1-b5b0-4225-9c4c-3940874a69a2'
+  module:
+    - block_content
+  theme:
+    - custom_theme
+id: header
+theme: custom_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:076ea0e1-b5b0-4225-9c4c-3940874a69a2'
+settings:
+  id: 'block_content:076ea0e1-b5b0-4225-9c4c-3940874a69a2'
+  label: header
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
