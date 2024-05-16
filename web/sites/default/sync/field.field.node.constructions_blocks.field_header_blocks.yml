@@ -1,0 +1,19 @@
+uuid: 4d052ac0-c68d-46db-a591-82a8eadc5a44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header_blocks
+    - node.type.constructions_blocks
+id: node.constructions_blocks.field_header_blocks
+field_name: field_header_blocks
+entity_type: node
+bundle: constructions_blocks
+label: header_blocks
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
